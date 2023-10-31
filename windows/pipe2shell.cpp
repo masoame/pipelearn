@@ -18,7 +18,7 @@ pipe2shell::pipe2shell(const char* lpApplicationName, char* lpCommandLine)
 	si.cb = sizeof(STARTUPINFOA);
 	si.wShowWindow = SW_HIDE;
 	si.hStdError = In_write;
-	si.hStdOutput = In_write;
+	si.hStdOutput = In_write; 
 	si.hStdInput = Out_read;
 	si.dwFlags = STARTF_USESTDHANDLES | STARTF_USESHOWWINDOW;
 

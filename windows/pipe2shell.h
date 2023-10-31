@@ -6,7 +6,7 @@ public:
 	//创建读取以及写入需要的管道句柄
 	HANDLE In_read, In_write, Out_read, Out_write;
 
-	SECURITY_ATTRIBUTES attr;
+	SECURITY_ATTRIBUTES attr; 
 	STARTUPINFOA si;
 	PROCESS_INFORMATION pi;
 

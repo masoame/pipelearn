@@ -3,7 +3,7 @@
 //int __stdcall WinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance,LPSTR lpCmdLine,int nShowCmd)
 int main()
 {
-	char str[] = "adb.exe shell";
+	char str[] = "adb.exe shell"; 
 	pipe2shell test(NULL, str);
 
 	WaitForSingleObject(test.pi.hProcess, INFINITE);
